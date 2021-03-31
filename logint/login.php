@@ -12,7 +12,7 @@ include_once('connection.php');
 </head>
 
 <body>
-    <form action="proflogin.php" method="POST">
+    <form method="POST">
         <label for="email">Email</label><br>
         <input type="mail" name="email"><br>
         <label for="password">Password</label><br>
