@@ -1,0 +1,72 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left,.right{
+    width: 50%;
+    text-align: center;
+    padding: 16px;
+}
+.left form{
+    display: flex;
+    flex-direction: column;
+}
+.left form *{
+    margin-bottom: 8px;
+    min-height: 40px;
+    padding: 0px 16px;
+}
+.left form button{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.right table{
+    width: 100%;
+}
+.right table,.right table td,.right table th{
+    border: 1px solid #444;
+    padding: 8px;
+}
+.update{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin: 2px;
+}
+.delete{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(255, 0, 76);
+    margin: 2px;
+}
+.success{
+    padding: 8px 16px;
+    width: 100%;
+    margin: 16px 0px;
+    background-color: rgb(214, 255, 214);
+    color: green;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    padding: 8px 16px;
+    width: 100%;
+    margin: 16px 0px;
+    background-color: rgb(255, 214, 214);
+    color: rgb(128, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

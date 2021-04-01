@@ -68,12 +68,19 @@ include_once('connection.php');
                         </button>
                     </div>
 
-
+                    <div class="text-center p-t-12">
+                        <span class="txt1">
+                            Forgot
+                        </span>
+                        <a class="txt2" href="#">
+                            Username / Password?
+                        </a>
+                    </div>
 
                     <div class="text-center p-t-136">
-                        <a class="txt2" href="">
-
-                            <i></i>
+                        <a class="txt2" href="signup.php">
+                            Create your Account
+                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                         </a>
                     </div>
                 </form>

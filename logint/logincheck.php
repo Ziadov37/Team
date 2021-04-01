@@ -11,7 +11,7 @@ if (isset($_POST["submit"])) {
     if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
         if ($row["password"] == $password) {
-            header('Location:index.php?proof=ok');
+            header('Location:../dashboard-prof/after-login.php');
         } else {
             header('Location:index.php?login=ko');
         }
