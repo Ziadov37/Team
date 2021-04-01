@@ -1,5 +1,5 @@
 <?php
-define("BASE_URL","http://localhost:3000/");
+define("BASE_URL","http://localhost");
 define('HOST',"localhost");
 define('USER',"root");
 define('PASSWORD',"");
