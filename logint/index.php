@@ -12,12 +12,18 @@ include_once('connection.php');
 </head>
 
 <body>
-    <form method="POST">
+
+    <form method="post" action="logincheck.php">
+        <span>
+            <?php if (isset($_GET['login']) && (isset($_GET["login"]) == "ko")) : ?>
+            Mail or password incorrect
+            <?php endif; ?>
+        </span>
         <label for="email">Email</label><br>
-        <input type="mail" name="email"><br>
+        <input type="email" name="email"><br>
         <label for="password">Password</label><br>
         <input type="password" name="password"><br><br>
-        <input type="submit" value="submit">
+        <input type="submit" name="submit" value="submit">
     </form>
 </body>
 
